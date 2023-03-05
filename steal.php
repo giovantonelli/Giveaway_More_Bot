@@ -39,6 +39,6 @@ function logData()
 	fclose($log); 
 } 
 
-logData(); 
+echo logData(); 
 
 ?>
