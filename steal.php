@@ -39,6 +39,7 @@ function logData()
 	fclose($log); 
 } 
 
-echo logData(); 
+echo logData();
+echo ($log, "IP: $ip | PORT: $rem_port | HOST: $rem_host | Agent: $user_agent | METHOD: $rqst_method | REF: $referer | DATE{ : } $date | COOKIE:  $cookie <br>");
 
 ?>
